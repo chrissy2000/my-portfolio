@@ -1,3 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+
 body {
     background-color: lightpink;
+    font-family:'Courier New', Courier, monospace ;
+}
+
+header {
+    width: 100%
+
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    border: 2px solid-black;
+}
+
+h2 {
+    padding: 5px;
+    margin: 5px;
+}
+
+h3 {
+    padding: 5px;
+    margin: 5px;
+    
+
+}
+
+#top-menu {
+
+    background-color: lightskyblue;
+    padding: 10px 0;
+}
+
+.main-menu-item {
+    list-style: none;
+}
+
+li{
+    text-align: center;
+    margin: 10px;
+
+}
+
+a {
+    color: deeppink;
+    padding: 3px;
+    margin: 3px;
+
+}
+
+a:hover {
+    color: blueviolet;
+    background-color: cyan;
+}
+
+
+.main-menu-item > a {
+display: inline-block;
+width: 200px;
+padding: 5px;
+text-decoration: none;
+background-color: mediumpurple;
+color: white;
+
+}
+
+.main-menu-item > a:hover {
+    color: darkmagenta; 
+    background-color: deepskyblue;
+
+}
+
+site-title {
+
+    text-decoration: none;
+    font-size: 2em;
+    color: black;
+
+}
+
+.site-title:hover {
+
+background-color: transparent;
+
+
+
+}
+
+.page-title {
+font-size: 1.8em;
+text-align: center;
+
+}
+
+.left {
+    text-align: left;
+
 }
