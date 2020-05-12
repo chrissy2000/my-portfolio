@@ -1,0 +1,36 @@
+
+ html {
+	font-family: sans-serif;
+}
+
+body {
+	margin: 5;
+	background-color: limegreen;
+}
+
+h1 {
+	text-align: center;
+	color: black;
+	line-height: 100px;
+	margin: 25px;
+}
+	
+.flex-container{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+	
+.flex-container > div {
+	width: 800px;
+	height: 60px;
+	background-color: yellow;
+	margin: auto;
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 24px;
+	justify-content: center;
+}
+
+

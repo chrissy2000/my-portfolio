@@ -1,0 +1,19 @@
+
+    html {
+      font-family: sans-serif;
+    }
+
+    body {
+      margin: 5;
+	  background: pink;
+    }
+
+
+    h1 {
+      text-align: center;
+      color: black;
+      line-height: 100px;
+      margin: 25px;
+    }
+	
+	
