@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>scroll demo</title>
+  <style>
+  div {
+    color: pink;
+  }
+  p {
+    color: teal;
+  }
+  span {
+    color:purple;
+    display: none;
+  }
+  </style>
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</head>
+<body>
+ 
+<div>This is my scroll event</div>
+<p>Hello! Look what happens when you scroll! - <span>Cool right?!</span></p>
+ 
+<script>
+$( "p" ).clone().appendTo( document.body );
+$( "p" ).clone().appendTo( document.body );
+$( "p" ).clone().appendTo( document.body );
+$( window ).scroll(function() {
+  $( "span" ).css( "display", "inline" ).fadeOut( "slow" );
+});
+</script>
+ 
+</body>
+</html>
